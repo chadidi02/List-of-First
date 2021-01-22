@@ -1,8 +1,6 @@
 import React from 'react'
 
 
-import table_header from "./head/table_header";
-
 
 export default function Tables() {
     return (
@@ -11,7 +9,14 @@ export default function Tables() {
                 <div className="row">
                     <table className="w-100">
                         <tbody>
-                            <table_header />
+
+                            <tr>
+                                <td width="64"><strong>Number</strong></td>
+                                <td width="244"><strong>First</strong></td>
+                                <td width="154"><strong>Person/ Country</strong></td>
+                                <td width="154"><strong>Year/ Date</strong></td>
+                            </tr>
+
                             <tr>
                                 <td width="64">1.</td>
                                 <td width="244">To reach Mount Everest</td>
