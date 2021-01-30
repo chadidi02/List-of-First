@@ -1,43 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/8.2.5/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/8.2.5/firebase-auth.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-database.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-functions.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-storage.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/8.2.5/firebase-performance.js"></script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
     -->
-  <title>React App</title>
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <div id="root">
+    <section>
+      <div className="row">
+        <table className="w-100">
+          <tbody>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+            <tr>
+              <td width="64"><strong>Number</strong></td>
+              <td width="244"><strong>First</strong></td>
+              <td width="154"><strong>Person/ Country</strong></td>
+              <td width="154"><strong>Year/ Date</strong></td>
+            </tr>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+            <tr>
+              <td width="64">1.</td>
+              <td width="244">To reach Mount Everest</td>
+              <td width="154">Edmund Hillary, Sherpa Tenzing</td>
+              <td width="154">May 29, 1953</td>
+            </tr>
+            <tr>
+              <td width="64">2.</td>
+              <td width="244">To reach North Pole</td>
+              <td width="154">Robert Peary</td>
+              <td width="154">April 6, 1909</td>
+            </tr>
+            <tr>
+              <td width="64">3.</td>
+              <td width="244">To reach South Pole</td>
+              <td width="154">Amundsen</td>
+              <td width="154">December 14, 1911</td>
+            </tr>
+            <tr>
+              <td width="64">4.</td>
+              <td width="244">Religion of the world</td>
+              <td width="154">Hinduism</td>
+              <td width="154">5500 BCE but certainly by c. 2300 BCE</td>
+            </tr>
+            <tr>
+              <td width="64">5.</td>
+              <td width="244">Country to print book</td>
+              <td width="154">China</td>
+              <td width="154">Between 618 and 907 AD</td>
+            </tr>
+            <tr>
+              <td width="64">6.</td>
+              <td width="244">Country to issue paper currency</td>
+              <td width="154">China</td>
+              <td width="154">806 AD</td>
+            </tr>
+            <tr>
+              <td width="64">7.</td>
+              <td width="244">Country to commence competitive examination in civil services</td>
+              <td width="154">China</td>
+              <td width="154">Between 7th to 10th century</td>
+            </tr>
+            <tr>
+              <td width="64">8.</td>
+              <td width="244">President of U.S.A</td>
+              <td width="154">George Washington</td>
+              <td width="154">April 30, 1789</td>
+            </tr>
+            <tr>
+              <td width="64">9.</td>
+              <td width="244">Prime Minister of Britain</td>
+              <td width="154">Robert Walpole</td>
+              <td width="154">1721</td>
+            </tr>
+            <tr>
+              <td width="64">10.</td>
+              <td width="244">Governor-General of the United Nations</td>
+              <td width="154">Trygve Lie (Norway)</td>
+              <td width="154">2 February 1946</td>
+            </tr>
+            <tr>
+              <td width="64">11.</td>
+              <td width="244">Country to win Football World Cup</td>
+              <td width="154">Uruguay</td>
+              <td width="154">July 30, 1930</td>
+            </tr>
+            <tr>
+              <td width="64">12.</td>
+              <td width="244">Country to prepare Constitution</td>
+              <td width="154">U.S.A.</td>
+              <td width="154">June 21, 1788</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
 
 </body>
 
